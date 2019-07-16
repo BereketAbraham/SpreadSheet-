@@ -1,4 +1,4 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
 public class Application
 {

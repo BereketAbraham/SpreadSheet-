@@ -1,4 +1,4 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
 public class Director {
 	private SpreadSheet spreadsheet;
@@ -28,9 +28,9 @@ public class Director {
 	private void setCell(int row, int col, String string) {
 
 		if (isNumeric(string)) {
-			spreadsheet.cell(row, col).setContent(new NumberCell(Float.parseFloat(string)));
+			spreadsheet.cell(row, col).setContent(new NumberContent(Float.parseFloat(string)));
 		} else {
-			spreadsheet.cell(row, col).setContent(new TextCell(string));
+			spreadsheet.cell(row, col).setContent(new TextContent(string));
 		}
 	}
 
@@ -64,8 +64,8 @@ public class Director {
 
 		// adding the total of rental car
 		Add add = new Add();
-		NumberCell num1 = new NumberCell(295);
-		NumberCell num2 = new NumberCell(0.85f);
+		NumberContent num1 = new NumberContent(295);
+		NumberContent num2 = new NumberContent(0.85f);
 		add.addContent(num1);
 		add.addContent(num2);
 
@@ -122,7 +122,7 @@ public class Director {
 
 		Subtract subtract2 = new Subtract();
 		subtract2.subContent(new Reference(cell(7, 2)));
-		subtract2.subContent(new NumberCell(multiply2.data()));
+		subtract2.subContent(new NumberContent(multiply2.data()));
 
 		spreadsheet.cell(9, 2).setContent(subtract2);
 		cell(9, 2).setContent(subtract2);

@@ -1,6 +1,6 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
-public class NumberCell extends Content{
+public class NumberContent extends Content{
 	
 	
 	private float num;
@@ -9,7 +9,7 @@ public class NumberCell extends Content{
 		return true;
 	}
 	
-	public  NumberCell(float num) {
+	public NumberContent(float num) {
 		this.num = num;
 	}
 	

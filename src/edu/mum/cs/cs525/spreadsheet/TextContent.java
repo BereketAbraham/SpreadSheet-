@@ -1,16 +1,16 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
-public class TextCell extends Content
+public class TextContent extends Content
 {
 	private StringBuilder text = new StringBuilder();
 
-	public TextCell(String str){ append(str);}
+	public TextContent(String str){ append(str);}
 	
 	public Boolean isText() { return true; }
 
 	public 	String value() { return text.toString(); }
 
-	public TextCell append(String txt)
+	public TextContent append(String txt)
 	{
 		if (txt != null)
 			text.append(txt);

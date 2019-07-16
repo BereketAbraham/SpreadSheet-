@@ -1,13 +1,10 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Division extends NumericOperation {
+public class Division extends Operator {
 
 	private float quotient = 0.0f;
 	private int counter = 0;
-	List<Reference> ref = new ArrayList<Reference>();
+	//List<Reference> ref = new ArrayList<Reference>();
 
 	@Override
 	public String value() {

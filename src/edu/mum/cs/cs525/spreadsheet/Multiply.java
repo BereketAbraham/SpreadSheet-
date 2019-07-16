@@ -1,12 +1,11 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class Multiply extends NumericOperation {
+public class Multiply extends Operator {
 
 	private float products = 1.0f;
-	List<Reference> ref = new ArrayList<Reference>();
+	//List<Reference> ref = new ArrayList<Reference>();
 
 	public List<Reference> getRef() {
 		return ref;

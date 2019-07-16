@@ -1,11 +1,8 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Add extends Operator {
 
-public class Add extends NumericOperation {
-
-	List<Reference> ref = new ArrayList<Reference>();
+	//List<Reference> ref = new ArrayList<Reference>();
 	private float addNumber = 0.0f;
 
 	@Override

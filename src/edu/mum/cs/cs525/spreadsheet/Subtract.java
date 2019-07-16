@@ -1,12 +1,8 @@
-package mum.edu.cs.cs525.spreadsheet;
+package edu.mum.cs.cs525.spreadsheet;
 
-import java.util.ArrayList;
-import java.util.List;
+public class Subtract extends Operator {
 
-
-public class Subtract extends NumericOperation {
-
-	List<Reference> ref = new ArrayList<Reference>();
+	//List<Reference> ref = new ArrayList<Reference>();
 	private float subResult = 0.0f;
 	private int counter = 0;
 
