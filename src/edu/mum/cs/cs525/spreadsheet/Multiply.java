@@ -5,7 +5,6 @@ import java.util.List;
 public class Multiply extends Operator {
 
 	private float products = 1.0f;
-	//List<Reference> ref = new ArrayList<Reference>();
 
 	public List<Reference> getRef() {
 		return ref;
@@ -49,4 +48,8 @@ public class Multiply extends Operator {
 		}
 	}
 
+	@Override
+	public float operate(float a, float b) {
+		return a * b;
+	}
 }

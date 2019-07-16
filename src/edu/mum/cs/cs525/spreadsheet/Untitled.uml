@@ -3,228 +3,93 @@
   <ID>JAVA</ID>
   <OriginalElement />
   <nodes>
-    <node x="620.804172216672" y="182.0">mum.edu.cs.cs525.spreadsheet.TextCell</node>
-    <node x="70.625" y="182.0">mum.edu.cs.cs525.spreadsheet.Cell</node>
-    <node x="405.4" y="454.0">mum.edu.cs.cs525.spreadsheet.Subtract</node>
-    <node x="319.91666666666663" y="76.0">mum.edu.cs.cs525.spreadsheet.Content</node>
-    <node x="682.304172216672" y="454.0">mum.edu.cs.cs525.spreadsheet.NumberCell</node>
-    <node x="369.1785991785992" y="268.0">mum.edu.cs.cs525.spreadsheet.NumericOperation</node>
-    <node x="255.875" y="454.0">mum.edu.cs.cs525.spreadsheet.Multiply</node>
-    <node x="193.7169469419468" y="0.0">mum.edu.cs.cs525.spreadsheet.Element</node>
-    <node x="150.8" y="454.0">mum.edu.cs.cs525.spreadsheet.Add</node>
-    <node x="0.0" y="268.0">mum.edu.cs.cs525.spreadsheet.SpreadSheet</node>
-    <node x="231.82462121212117" y="600.0">mum.edu.cs.cs525.spreadsheet.Director</node>
-    <node x="240.1785991785992" y="268.0">mum.edu.cs.cs525.spreadsheet.Reference</node>
-    <node x="527.4" y="454.0">mum.edu.cs.cs525.spreadsheet.Division</node>
+    <node x="626.0" y="163.0">edu.mum.cs.cs525.spreadsheet.Reference</node>
+    <node x="680.0" y="76.0">edu.mum.cs.cs525.spreadsheet.Cell</node>
+    <node x="755.0" y="163.0">edu.mum.cs.cs525.spreadsheet.NumberContent</node>
+    <node x="87.00000000000006" y="250.0">edu.mum.cs.cs525.spreadsheet.Group</node>
+    <node x="483.00000000000006" y="163.0">edu.mum.cs.cs525.spreadsheet.TextContent</node>
+    <node x="297.00000000000006" y="152.0">edu.mum.cs.cs525.spreadsheet.Operator</node>
+    <node x="0.0" y="283.0">edu.mum.cs.cs525.spreadsheet.Add</node>
+    <node x="573.0" y="283.0">edu.mum.cs.cs525.spreadsheet.Subtract</node>
+    <node x="451.00000000000006" y="283.0">edu.mum.cs.cs525.spreadsheet.Multiply</node>
+    <node x="0.0" y="387.0">edu.mum.cs.cs525.spreadsheet.SpreadSheet</node>
+    <node x="168.0" y="387.0">edu.mum.cs.cs525.spreadsheet.Director</node>
+    <node x="565.0" y="76.0">edu.mum.cs.cs525.spreadsheet.Content</node>
+    <node x="617.25" y="0.0">edu.mum.cs.cs525.spreadsheet.Element</node>
+    <node x="329.00000000000006" y="283.0">edu.mum.cs.cs525.spreadsheet.Division</node>
   </nodes>
   <notes />
   <edges>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Reference" target="mum.edu.cs.cs525.spreadsheet.Cell">
-      <point x="-5.6843418860808015E-14" y="-13.0" />
-      <point x="294.67859917859914" y="228.0" />
-      <point x="139.33928571428567" y="228.0" />
-      <point x="31.714285714285666" y="13.0" />
+    <edge source="edu.mum.cs.cs525.spreadsheet.Group" target="edu.mum.cs.cs525.spreadsheet.Operator">
+      <point x="0.0" y="-46.0" />
+      <point x="198.00000000000006" y="230.0" />
+      <point x="346.80000000000007" y="230.0" />
+      <point x="-33.19999999999999" y="24.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.Reference">
-      <point x="-27.19999999999999" y="-13.0" />
-      <point x="255.62462121212118" y="550.0" />
-      <point x="140.3" y="550.0" />
-      <point x="140.3" y="384.0" />
-      <point x="244.37090687090688" y="384.0" />
-      <point x="-50.30769230769232" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Division" target="mum.edu.cs.cs525.spreadsheet.NumericOperation">
-      <point x="20.399999999999977" y="-13.0" />
-      <point x="598.8" y="324.0" />
-      <point x="507.4285991785992" y="324.0" />
-      <point x="59.25" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Subtract" target="mum.edu.cs.cs525.spreadsheet.NumericOperation">
-      <point x="20.399999999999977" y="-13.0" />
-      <point x="476.79999999999995" y="434.0" />
-      <point x="467.9285991785992" y="434.0" />
-      <point x="19.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.NumberCell" target="mum.edu.cs.cs525.spreadsheet.Content">
+    <edge source="edu.mum.cs.cs525.spreadsheet.Multiply" target="edu.mum.cs.cs525.spreadsheet.Operator">
       <point x="0.0" y="-13.0" />
-      <point x="740.304172216672" y="122.0" />
-      <point x="410.16666666666663" y="122.0" />
-      <point x="42.75" y="13.0" />
+      <point x="502.00000000000006" y="230.0" />
+      <point x="413.20000000000005" y="230.0" />
+      <point x="33.19999999999999" y="24.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Division" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="40.799999999999955" y="-13.0" />
-      <point x="619.1999999999999" y="314.0" />
-      <point x="598.021022033522" y="314.0" />
-      <point x="598.021022033522" y="142.0" />
-      <point x="391.16666666666663" y="142.0" />
+    <edge source="edu.mum.cs.cs525.spreadsheet.Subtract" target="edu.mum.cs.cs525.spreadsheet.Operator">
+      <point x="0.0" y="-13.0" />
+      <point x="624.0" y="220.0" />
+      <point x="446.40000000000003" y="220.0" />
+      <point x="66.39999999999998" y="24.0" />
+    </edge>
+    <edge source="edu.mum.cs.cs525.spreadsheet.Add" target="edu.mum.cs.cs525.spreadsheet.Operator">
+      <point x="0.0" y="-13.0" />
+      <point x="33.5" y="220.0" />
+      <point x="313.6000000000001" y="220.0" />
+      <point x="-66.39999999999998" y="24.0" />
+    </edge>
+    <edge source="edu.mum.cs.cs525.spreadsheet.Division" target="edu.mum.cs.cs525.spreadsheet.Operator">
+      <point x="0.0" y="-13.0" />
+      <point x="0.0" y="24.0" />
+    </edge>
+    <edge source="edu.mum.cs.cs525.spreadsheet.Cell" target="edu.mum.cs.cs525.spreadsheet.Element">
+      <point x="0.0" y="-13.0" />
+      <point x="717.0" y="51.0" />
+      <point x="688.5" y="51.0" />
       <point x="23.75" y="13.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Multiply" target="mum.edu.cs.cs525.spreadsheet.NumericOperation">
-      <point x="40.80000000000001" y="-13.0" />
-      <point x="347.675" y="434.0" />
-      <point x="428.4285991785992" y="434.0" />
-      <point x="-19.75" y="13.0" />
+    <edge source="edu.mum.cs.cs525.spreadsheet.Operator" target="edu.mum.cs.cs525.spreadsheet.Content">
+      <point x="0.0" y="-24.0" />
+      <point x="380.00000000000006" y="122.0" />
+      <point x="576.875" y="122.0" />
+      <point x="-35.625" y="13.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Division" target="mum.edu.cs.cs525.spreadsheet.Reference">
-      <point x="-20.399999999999977" y="-13.0" />
-      <point x="558.0" y="344.0" />
-      <point x="336.60167610167616" y="344.0" />
-      <point x="41.92307692307696" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.TextCell">
-      <point x="34.0" y="-13.0" />
-      <point x="316.8246212121212" y="560.0" />
-      <point x="671.804172216672" y="560.0" />
-      <point x="0.0" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.Multiply">
+    <edge source="edu.mum.cs.cs525.spreadsheet.NumberContent" target="edu.mum.cs.cs525.spreadsheet.Content">
       <point x="0.0" y="-13.0" />
-      <point x="282.8246212121212" y="510.0" />
-      <point x="332.375" y="510.0" />
-      <point x="25.5" y="13.0" />
+      <point x="823.5" y="122.0" />
+      <point x="648.125" y="122.0" />
+      <point x="35.625" y="13.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Add" target="mum.edu.cs.cs525.spreadsheet.NumericOperation">
-      <point x="26.80000000000004" y="-13.0" />
-      <point x="211.10000000000005" y="424.0" />
-      <point x="388.9285991785992" y="424.0" />
-      <point x="-59.25" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Add" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="-26.799999999999983" y="-13.0" />
-      <point x="157.50000000000003" y="374.0" />
-      <point x="179.6785991785992" y="374.0" />
-      <point x="179.6785991785992" y="142.0" />
-      <point x="343.66666666666663" y="142.0" />
+    <edge source="edu.mum.cs.cs525.spreadsheet.Content" target="edu.mum.cs.cs525.spreadsheet.Element">
+      <point x="0.0" y="-13.0" />
+      <point x="612.5" y="51.0" />
+      <point x="641.0" y="51.0" />
       <point x="-23.75" y="13.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.SpreadSheet">
-      <point x="-40.799999999999955" y="-13.0" />
-      <point x="242.02462121212122" y="570.0" />
-      <point x="64.90000000000003" y="570.0" />
-      <point x="64.90000000000003" y="434.0" />
-      <point x="92.25" y="434.0" />
-      <point x="30.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Reference" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="36.333333333333314" y="-13.0" />
-      <point x="331.0119325119325" y="248.0" />
-      <point x="308.8333333333333" y="248.0" />
-      <point x="308.8333333333333" y="162.0" />
-      <point x="362.66666666666663" y="162.0" />
-      <point x="-4.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.Division">
-      <point x="27.200000000000045" y="-13.0" />
-      <point x="310.02462121212125" y="550.0" />
-      <point x="603.9" y="550.0" />
-      <point x="25.5" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Multiply" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="-40.80000000000001" y="-13.0" />
-      <point x="266.075" y="374.0" />
-      <point x="229.6785991785992" y="374.0" />
-      <point x="229.6785991785992" y="152.0" />
-      <point x="353.16666666666663" y="152.0" />
-      <point x="-14.25" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Subtract" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="40.799999999999955" y="-13.0" />
-      <point x="497.19999999999993" y="434.0" />
-      <point x="537.6785991785991" y="434.0" />
-      <point x="537.6785991785991" y="152.0" />
-      <point x="381.66666666666663" y="152.0" />
-      <point x="14.25" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Content" target="mum.edu.cs.cs525.spreadsheet.Cell">
-      <point x="-33.25" y="13.0" />
-      <point x="334.16666666666663" y="132.0" />
-      <point x="132.29166666666663" y="132.0" />
-      <point x="24.66666666666663" y="-13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Subtract" target="mum.edu.cs.cs525.spreadsheet.Reference">
+    <edge source="edu.mum.cs.cs525.spreadsheet.Reference" target="edu.mum.cs.cs525.spreadsheet.Content">
       <point x="0.0" y="-13.0" />
-      <point x="456.4" y="364.0" />
-      <point x="319.83244533244533" y="364.0" />
-      <point x="25.153846153846132" y="13.0" />
+      <point x="680.5" y="132.0" />
+      <point x="624.375" y="132.0" />
+      <point x="11.875" y="13.0" />
     </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.Cell">
-      <point x="-34.0" y="-13.0" />
-      <point x="248.82462121212117" y="560.0" />
-      <point x="133.50000000000003" y="560.0" />
-      <point x="133.50000000000003" y="248.0" />
-      <point x="118.19642857142856" y="248.0" />
-      <point x="10.571428571428555" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Multiply" target="mum.edu.cs.cs525.spreadsheet.Reference">
-      <point x="20.399999999999977" y="-13.0" />
-      <point x="327.275" y="394.0" />
-      <point x="294.6785991785992" y="394.0" />
-      <point x="0.0" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.SpreadSheet" target="mum.edu.cs.cs525.spreadsheet.Cell">
-      <point x="46.125" y="-13.0" />
-      <point x="0.0" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.NumberCell">
-      <point x="40.799999999999955" y="-13.0" />
-      <point x="323.62462121212116" y="570.0" />
-      <point x="711.304172216672" y="570.0" />
-      <point x="-29.0" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Content" target="mum.edu.cs.cs525.spreadsheet.Element">
+    <edge source="edu.mum.cs.cs525.spreadsheet.TextContent" target="edu.mum.cs.cs525.spreadsheet.Content">
       <point x="0.0" y="-13.0" />
-      <point x="367.41666666666663" y="51.0" />
-      <point x="264.9669469419468" y="51.0" />
-      <point x="23.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Cell" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="0.0" y="-13.0" />
-      <point x="107.625" y="122.0" />
-      <point x="324.66666666666663" y="122.0" />
-      <point x="-42.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.Subtract">
-      <point x="6.800000000000011" y="-13.0" />
-      <point x="289.62462121212116" y="520.0" />
-      <point x="430.9" y="520.0" />
-      <point x="-25.5" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Cell" target="mum.edu.cs.cs525.spreadsheet.Element">
-      <point x="-24.66666666666663" y="-13.0" />
-      <point x="82.95833333333337" y="162.0" />
-      <point x="96.16669441669444" y="162.0" />
-      <point x="96.16669441669444" y="51.0" />
-      <point x="217.4669469419468" y="51.0" />
-      <point x="-23.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Add" target="mum.edu.cs.cs525.spreadsheet.Reference">
-      <point x="-13.399999999999977" y="-13.0" />
-      <point x="170.90000000000003" y="394.0" />
-      <point x="252.7555222555223" y="394.0" />
-      <point x="-41.923076923076906" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.NumericOperation" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="0.0" y="-13.0" />
-      <point x="448.1785991785992" y="162.0" />
-      <point x="372.16666666666663" y="162.0" />
-      <point x="4.75" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.TextCell" target="mum.edu.cs.cs525.spreadsheet.Content">
-      <point x="0.0" y="-13.0" />
-      <point x="671.804172216672" y="132.0" />
-      <point x="400.66666666666663" y="132.0" />
-      <point x="33.25" y="13.0" />
-    </edge>
-    <edge source="mum.edu.cs.cs525.spreadsheet.Director" target="mum.edu.cs.cs525.spreadsheet.Add">
-      <point x="-20.399999999999977" y="-13.0" />
-      <point x="262.4246212121212" y="540.0" />
-      <point x="167.55" y="540.0" />
-      <point x="-16.75" y="13.0" />
+      <point x="544.5000000000001" y="132.0" />
+      <point x="600.625" y="132.0" />
+      <point x="-11.875" y="13.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.072395961888177" x="540.8264261051991" y="353.9290469669018" />
+  <settings layout="Hierarchic Group" zoom="0.5772386861786041" x="644.2549185559526" y="544.5243955954974" />
   <SelectedNodes />
-  <Categories />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
   <SCOPE>All</SCOPE>
   <VISIBILITY>packageLocal</VISIBILITY>
 </Diagram>

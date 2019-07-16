@@ -2,7 +2,6 @@ package edu.mum.cs.cs525.spreadsheet;
 
 public class Add extends Operator {
 
-	//List<Reference> ref = new ArrayList<Reference>();
 	private float addNumber = 0.0f;
 
 	@Override
@@ -44,4 +43,8 @@ public class Add extends Operator {
 		}
 	}
 
+	@Override
+	public float operate(float a, float b) {
+		return a + b ;
+	}
 }

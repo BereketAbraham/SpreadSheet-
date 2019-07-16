@@ -26,12 +26,33 @@ public class Director {
 	}
 
 	private void setCell(int row, int col, String string) {
-
 		if (isNumeric(string)) {
 			spreadsheet.cell(row, col).setContent(new NumberContent(Float.parseFloat(string)));
+		} else if (isNumericExpression(string)) {
+			spreadsheet.cell(row, col).setContent(new Expression(string));
 		} else {
 			spreadsheet.cell(row, col).setContent(new TextContent(string));
 		}
+	}
+
+	public static boolean isNumericExpression(String string) {
+		boolean isNumericExpression = false;
+		String[] operands = null;
+
+		if(string.contains("+") || string.contains("-") || string.contains("*") || string.contains("/")) {
+			operands = string.split("[-+*/]");
+			isNumericExpression = true;
+		}
+
+		if (isNumericExpression) {
+			for (String s : operands) {
+				if (!isNumeric(s)) {
+					return false;
+				}
+			}
+		}
+
+		return isNumericExpression;
 	}
 
 	public String contents() {
@@ -79,7 +100,7 @@ public class Director {
 
 		setCell(5, 1, "Meals:");
 
-		setCell(5, 2, "150");
+		setCell(5, 2, "115+2+3+4*5*6/3-7/8");
 
 		setCell(5, 3, "");
 

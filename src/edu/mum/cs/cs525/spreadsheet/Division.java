@@ -4,7 +4,7 @@ public class Division extends Operator {
 
 	private float quotient = 0.0f;
 	private int counter = 0;
-	//List<Reference> ref = new ArrayList<Reference>();
+
 
 	@Override
 	public String value() {
@@ -50,4 +50,10 @@ public class Division extends Operator {
 		}
 	}
 
+	@Override
+	public float operate( float a, float b) {
+		if (b == 0)
+			throw new UnsupportedOperationException("Cannot divide by zero");
+		return a / b;
+	}
 }
