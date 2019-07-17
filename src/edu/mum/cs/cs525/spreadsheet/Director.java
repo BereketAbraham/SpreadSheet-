@@ -86,6 +86,7 @@ public class Director {
 		setCell(5, 4, "This is all our meals");
 
 		setCell(7, 1, "Sub-total:");
+		setCell(7,2,"[1,2] + [2,2] + [3,2] + [4,2] + [5,2]");
 
 		// getting the subtotal
 		Add subTotal = new Add();
@@ -158,8 +159,7 @@ public class Director {
 		spreadsheet.cell(12, 2).setContent(division);
 		cell(12, 2).setContent(division);
 
-//		setCell(13, 1, "Meals: ");
-//		setCell(13, 2, "115+2+3+4*5*6/3-7/8");
+
 		setCell(5, 2, "115+2+3+4*5*6/3-7/8");
 		setCell(13, 1, "[7,2]*(1-[8,2])");
 
